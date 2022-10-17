@@ -1,38 +1,172 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+/* ============================
+nav bar
+================================*/
+.nav-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.nav-logo img {
+  width: 100px;
+  height: 100px;
+  margin-right: 45px;
+}
+
+.nav-item {
+  display: none;
+}
+
+.nav-item ul li {
+  list-style: none;
+}
+
+.small-nav>div {
+  width: 34px;
+  height: 4px;
+  margin: 5px;
+  background-color: black;
+  cursor: pointer;
+}
+
+/* =========================
+============================ */
+
+footer {
+  padding: 93px 0px;
+  background-color: #F5FFF1;
+  border-bottom: 2px solid rgba(98, 175, 69, 0.25);
+}
+
+footer h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 31px;
+  color: #000000;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #454457;
+}
+
+footer .social-icon {
+  padding-top: 30px;
+}
+
+footer .social-icon a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  background: #62AF45;
+  border-radius: 30px;
+  float: left;
+}
+
+.copy-right {
+  padding: 34px 0px;
+  background-color: #F5FFF1;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.copy-right p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #4C4C53;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.copy-right span {
+  color: #62AF45;
+}
+
+/* ==========================
+responsive
+============================ */
+
+@media (min-width:1280px) {
+  .small-nav {
+    display: none;
+  }
+
+  .nav-logo img {
+    width: 117px;
+    height: 108px;
+    margin-right: 45px;
+  }
+
+  .nav-item {
+    display: block;
+  }
+
+  .nav-item ul li {
+    list-style: none;
+    float: left;
+  }
+
+  .nav-item ul li a {
+    font-family: 'Inter';
+    margin-left: 22px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  /* ============
+  footer
+  ================== */
+  footer .social-icon a {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    background: #62AF45;
+    border-radius: 30px;
+    float: left;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width:769px) {
+  footer {
+    padding: 53px 0px;
+    background-color: #F5FFF1;
+    border-bottom: 2px solid rgba(98, 175, 69, 0.25);
   }
 }
