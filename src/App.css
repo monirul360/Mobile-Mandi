@@ -326,10 +326,10 @@ form-section
 }
 
 .form-items {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
-.form-items input[type=text] {
+.form-items .country-code {
   width: 70px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;

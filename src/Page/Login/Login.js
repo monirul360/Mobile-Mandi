@@ -13,7 +13,7 @@ const Login = () => {
                         <form action="">
                             <div className="d-flex">
                                 <div>
-                                    <input type="text" placeholder='+91' name="" id="" />
+                                    <input className='country-code' type="text" placeholder='+91' name="" id="" />
                                 </div>
                                 <div className='w-100'>
                                     <input type="number" name="" placeholder='Enter Your Mobile Number' id="" />

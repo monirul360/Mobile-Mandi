@@ -5,6 +5,7 @@ import Footer from './Component/Footer/Footer';
 import Nav from './Component/Nav/Nav';
 import Home from './Page/Home/Home';
 import Login from './Page/Login/Login';
+import Signup from './Page/Signup/Signup';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home></Home>}></Route>
           <Route path='/login' element={<Login></Login>}></Route>
+          <Route path='/signup' element={<Signup></Signup>}></Route>
         </Routes>
       </Wrapper >
       <Footer></Footer>
