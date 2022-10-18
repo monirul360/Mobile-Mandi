@@ -3,6 +3,7 @@ import { Route, Routes, useLocation } from 'react-router-dom';
 import './App.css';
 import Footer from './Component/Footer/Footer';
 import Nav from './Component/Nav/Nav';
+import Home from './Page/Home/Home';
 
 function App() {
 
@@ -19,9 +20,9 @@ function App() {
       <Nav></Nav>
       <Wrapper>
         <Routes>
-          <Route path='/'></Route>
+          <Route path='/' element={<Home></Home>}></Route>
         </Routes>
-      </Wrapper>
+      </Wrapper >
       <Footer></Footer>
     </>
   );

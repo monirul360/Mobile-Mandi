@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import logo from './../../Photo/logo.png';
 const Nav = () => {
     return (
-        <div style={{ backgroundColor: '#F5F5F5' }}>
+        <div>
             <div className='container'>
                 <nav>
                     <div className="nav-flex">
@@ -21,7 +21,7 @@ const Nav = () => {
                                 <li><Link to='/'>All Categories</Link></li>
                                 <li><Link to='/'>Blogs</Link></li>
                                 <li><Link to='/'>Login/Sign Up</Link></li>
-                                <li><Link to='/'>Post Ads</Link></li>
+                                <li><Link className='nav-post-ads' to='/'>Post Ads</Link></li>
                             </ul>
                         </div>
                         <div className="small-nav">
