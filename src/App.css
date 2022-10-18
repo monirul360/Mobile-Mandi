@@ -31,7 +31,7 @@ nav bar
 ================================*/
 .nav-flex {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 20px 0;
 }
@@ -100,6 +100,57 @@ hero
 
 .hero .hero-img img {
   width: 100%;
+}
+
+/* =======================
+Categories
+=========================== */
+.Categories {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background-color: #F5F5F5;
+}
+
+.Categories-items {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Categories-items .items {
+  padding: 10px;
+  margin: 20px 20px;
+}
+
+.Categories-items .content h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.Categories-items .content p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-top: 5px;
+  /* identical to box height */
+  color: #000000;
+}
+
+/* ========================
+recent-product 
+===========================*/
+
+.recent-product {
+  padding-top: 40px;
+  border-top: 2px solid rgba(221, 221, 221, 0.5);
 }
 
 /* ========================
