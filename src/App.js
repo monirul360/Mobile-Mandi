@@ -4,6 +4,7 @@ import './App.css';
 import Footer from './Component/Footer/Footer';
 import Nav from './Component/Nav/Nav';
 import Home from './Page/Home/Home';
+import Login from './Page/Login/Login';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Wrapper>
         <Routes>
           <Route path='/' element={<Home></Home>}></Route>
+          <Route path='/login' element={<Login></Login>}></Route>
         </Routes>
       </Wrapper >
       <Footer></Footer>

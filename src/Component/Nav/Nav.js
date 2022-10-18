@@ -20,7 +20,7 @@ const Nav = () => {
                                 <li><Link to='/'>All Products</Link></li>
                                 <li><Link to='/'>All Categories</Link></li>
                                 <li><Link to='/'>Blogs</Link></li>
-                                <li><Link to='/'>Login/Sign Up</Link></li>
+                                <li><Link to='/login'>Login/Sign Up</Link></li>
                                 <li><Link className='nav-post-ads' to='/'>Post Ads</Link></li>
                             </ul>
                         </div>
