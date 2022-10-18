@@ -5,7 +5,9 @@ import Footer from './Component/Footer/Footer';
 import Nav from './Component/Nav/Nav';
 import Home from './Page/Home/Home';
 import Login from './Page/Login/Login';
+import Postads from './Page/Postads/Postads';
 import Signup from './Page/Signup/Signup';
+import Verify from './Page/Verify/Verify';
 
 function App() {
 
@@ -25,6 +27,8 @@ function App() {
           <Route path='/' element={<Home></Home>}></Route>
           <Route path='/login' element={<Login></Login>}></Route>
           <Route path='/signup' element={<Signup></Signup>}></Route>
+          <Route path='/verify' element={<Verify></Verify>}></Route>
+          <Route path='/postads' element={<Postads></Postads>}></Route>
         </Routes>
       </Wrapper >
       <Footer></Footer>
