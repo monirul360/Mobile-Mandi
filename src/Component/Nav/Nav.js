@@ -15,7 +15,7 @@ const Nav = () => {
                         <div className="nav-item">
                             <ul>
                                 <li><Link to='/'>Home</Link></li>
-                                <li><Link to='/'>About Us</Link></li>
+                                <li><Link to='/Aboutus'>About Us</Link></li>
                                 <li><Link to='/'>Why us</Link></li>
                                 <li><Link to='/'>All Products</Link></li>
                                 <li><Link to='/'>All Categories</Link></li>
