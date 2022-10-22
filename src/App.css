@@ -487,6 +487,46 @@ faq-section
 }
 
 /* =========================
+terms-section
+============================ */
+.terms-section {
+  padding: 73px 0;
+  border-top: 2px solid rgba(217, 217, 217, 0.7);
+}
+
+.terms-section .terms-title {
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+
+}
+
+.terms-section .terms-items h3 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.terms-section .terms-items p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+/* =========================
 footer
 ============================ */
 

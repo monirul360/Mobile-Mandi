@@ -9,6 +9,7 @@ import Home from './Page/Home/Home';
 import Login from './Page/Login/Login';
 import Postads from './Page/Postads/Postads';
 import Signup from './Page/Signup/Signup';
+import Terms from './Page/Terms/Terms';
 import Verify from './Page/Verify/Verify';
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path='/postads' element={<Postads></Postads>}></Route>
           <Route path='/Aboutus' element={<Aboutus></Aboutus>}></Route>
           <Route path='/Faq' element={<Faq></Faq>}></Route>
+          <Route path='/Terms' element={<Terms></Terms>}></Route>
         </Routes>
       </Wrapper >
       <Footer></Footer>
