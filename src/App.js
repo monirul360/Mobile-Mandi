@@ -9,6 +9,8 @@ import Faq from './Page/Faq/Faq';
 import Home from './Page/Home/Home';
 import Login from './Page/Login/Login';
 import Postads from './Page/Postads/Postads';
+import Productdetails from './Page/Productdetails/Productdetails';
+import Profile1 from './Page/Profile1/Profile1';
 import Signup from './Page/Signup/Signup';
 import Terms from './Page/Terms/Terms';
 import Verify from './Page/Verify/Verify';
@@ -37,6 +39,8 @@ function App() {
           <Route path='/Faq' element={<Faq></Faq>}></Route>
           <Route path='/Terms' element={<Terms></Terms>}></Route>
           <Route path='/Allproduct' element={<Allproduct></Allproduct>}></Route>
+          <Route path='/Productdetails' element={<Productdetails></Productdetails>}></Route>
+          <Route path='/Profile1' element={<Profile1></Profile1>}></Route>
         </Routes>
       </Wrapper >
       <Footer></Footer>
