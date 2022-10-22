@@ -13,7 +13,7 @@ const Blogs = () => {
                         {
                             post.map(post =>
                                 <div className="col-md-6 col-lg-4">
-                                    <Link to='/'>
+                                    <Link to='/blogdetails'>
                                         <div className="blogs-items m-1">
                                             <div className="img">
                                                 <img className='img-fluid' src={img} alt="" />

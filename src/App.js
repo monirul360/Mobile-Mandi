@@ -5,6 +5,7 @@ import Footer from './Component/Footer/Footer';
 import Nav from './Component/Nav/Nav';
 import Aboutus from './Page/Aboutus/Aboutus';
 import Allproduct from './Page/Allproduct/Allproduct';
+import Blogdetails from './Page/Blogdetails/Blogdetails';
 import Blogs from './Page/Blogs/Blogs';
 import Faq from './Page/Faq/Faq';
 import Home from './Page/Home/Home';
@@ -43,6 +44,7 @@ function App() {
           <Route path='/Productdetails' element={<Productdetails></Productdetails>}></Route>
           <Route path='/Profile1' element={<Profile1></Profile1>}></Route>
           <Route path='/Blogs' element={<Blogs></Blogs>} ></Route>
+          <Route path='/blogdetails' element={<Blogdetails></Blogdetails>}></Route>
         </Routes>
       </Wrapper >
       <Footer></Footer>
