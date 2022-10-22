@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import hero from './../../Photo/Hero/Rectangle 2.png';
 import article from './../../Photo/Article/Rectangle 20.png';
 import location from './../../Photo/Article/Vector.png';
 import user from './../../Photo/Article/Ellipse 12.png';
 import Categories from './../../Component/Categories/Categories';
+import Ads from '../../Component/Ads/Ads';
 const Home = () => {
     const post = [1, 2, 3, 4, 5, 6];
     return (
@@ -81,7 +81,6 @@ const Home = () => {
                         <div className="row">
                             {
                                 post.map(popular =>
-
                                     <div className="col-md-6 col-lg-4">
                                         <div className='items'>
                                             <div className="img p-4">
@@ -122,17 +121,8 @@ const Home = () => {
                 </div>
             </section>
 
-            <section>
-                <div className="post-ads">
-                    <div className='post-content'>
-                        <h1>You have Product For Sell?</h1>
-                        <p>You have Product For Sell?
-                            We Are is simply dummy text of the printi and typesetting industry the indust tand ard dummy text ever since the
-                            Post Ads </p>
-                        <Link to='/'>Post Ads</Link>
-                    </div>
-                </div>
-            </section>
+            <Ads></Ads>
+
         </div >
     );
 };

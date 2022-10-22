@@ -42,7 +42,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="col-md-6 col-lg-3">
-                            <h4 className='mb-3'>Download Our App</h4>
+                            <h4>Download Our App</h4>
                             <div className="d-flex">
                                 <div className=''>
                                     <Link to='/'>

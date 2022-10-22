@@ -527,6 +527,180 @@ terms-section
 }
 
 /* =========================
+allproduct-hero-section
+============================= */
+.allproduct-hero-section {
+  width: 100%;
+  height: 627px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #1B2D4F;
+}
+
+.allproduct-hero-section .hero-content {
+  max-width: 629px;
+  padding: 20px;
+  margin: auto;
+}
+
+.allproduct-hero-section .hero-content h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #FFFFFF;
+}
+
+.allproduct-hero-section .hero-content p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  /* or 28px */
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.allproduct-hero-section .hero-content input {
+  width: 100%;
+  height: 65px;
+  padding: 23px;
+  background: #FFFFFF;
+  border-radius: 100px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 21px;
+  outline: none;
+  border: none;
+}
+
+.allproduct-hero-section .hero-content a {
+  width: 230px;
+  display: block;
+  padding: 10px 20px;
+  background: #62AF45;
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  border-radius: 100px;
+  margin: 35px auto;
+  margin-bottom: 0px;
+}
+
+.allproduct-hero-section .hero-content .hero-form {
+  position: relative;
+}
+
+.allproduct-hero-section .hero-content .hero-form button {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 15px;
+  top: 7px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #62AF45;
+  border: none;
+}
+
+/* =========================
+allproduct-section
+============================ */
+.allproduct-section {
+  padding: 73px 0;
+  padding-bottom: 0;
+}
+
+.allproduct-section .page-tittle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 53px;
+}
+
+.allproduct-site-bar {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.product-category,
+.location,
+.price-range {
+  border-bottom: 1px solid rgba(217, 217, 217, 0.5);
+}
+
+.allproduct-site-bar h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 23px;
+  color: #000000;
+}
+
+.allproduct-site-bar input {
+  border: 6px solid #62AF45;
+  background-color: orange;
+}
+
+.allproduct-site-bar span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #454457;
+}
+
+.allproduct-pagination {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 70px auto;
+}
+
+.allproduct-pagination a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #62AF45;
+  margin: 5px;
+  border: 1px solid #62AF45;
+  border-radius: 50%;
+}
+
+.allproduct-pagination a:nth-child(5) {
+  background: #62AF45;
+  color: #FFFFFF;
+}
+
+.allproduct-pagination a:nth-child(2) {
+  background: #62AF45;
+  color: #FFFFFF;
+}
+
+/* =========================
 footer
 ============================ */
 
@@ -543,6 +717,7 @@ footer h4 {
   font-size: 20px;
   line-height: 31px;
   color: #000000;
+  margin-bottom: 20px;
 }
 
 footer ul li {
@@ -655,6 +830,12 @@ responsive
     background: #62AF45;
     border-radius: 30px;
     float: left;
+  }
+}
+
+@media (max-width:992px) {
+  .allproduct-site-bar {
+    margin: 30px 0;
   }
 }
 

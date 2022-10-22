@@ -4,6 +4,7 @@ import './App.css';
 import Footer from './Component/Footer/Footer';
 import Nav from './Component/Nav/Nav';
 import Aboutus from './Page/Aboutus/Aboutus';
+import Allproduct from './Page/Allproduct/Allproduct';
 import Faq from './Page/Faq/Faq';
 import Home from './Page/Home/Home';
 import Login from './Page/Login/Login';
@@ -35,6 +36,7 @@ function App() {
           <Route path='/Aboutus' element={<Aboutus></Aboutus>}></Route>
           <Route path='/Faq' element={<Faq></Faq>}></Route>
           <Route path='/Terms' element={<Terms></Terms>}></Route>
+          <Route path='/Allproduct' element={<Allproduct></Allproduct>}></Route>
         </Routes>
       </Wrapper >
       <Footer></Footer>
