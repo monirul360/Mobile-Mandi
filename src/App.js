@@ -14,6 +14,7 @@ import Login from './Page/Login/Login';
 import Postads from './Page/Postads/Postads';
 import Productdetails from './Page/Productdetails/Productdetails';
 import Profile1 from './Page/Profile1/Profile1';
+import Profile2 from './Page/Profile2/Profile2';
 import Signup from './Page/Signup/Signup';
 import Terms from './Page/Terms/Terms';
 import Verify from './Page/Verify/Verify';
@@ -44,6 +45,7 @@ function App() {
           <Route path='/Allproduct' element={<Allproduct></Allproduct>}></Route>
           <Route path='/Productdetails' element={<Productdetails></Productdetails>}></Route>
           <Route path='/Profile1' element={<Profile1></Profile1>}></Route>
+          <Route path='/Profile2' element={<Profile2></Profile2>}></Route>
           <Route path='/Contactus' element={<Contactus></Contactus>}></Route>
           <Route path='/Blogs' element={<Blogs></Blogs>} ></Route>
           <Route path='/blogdetails' element={<Blogdetails></Blogdetails>}></Route>

@@ -749,15 +749,15 @@ search-section
 profile1-section
 ============================ */
 .profile1-section {
-  padding-top: 73px;
-}
-
-.profile-content {
-  padding: 30px 15px;
-  padding-bottom: 70px;
+  max-width: 90%;
+  margin: 70px auto;
   background: #FFFFFF;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
+}
+
+.profile-content {
+  padding: 30px 20px;
   position: relative;
 }
 
@@ -831,6 +831,75 @@ profile1-section
   color: #090707;
   border-radius: 8px;
   border: none;
+}
+
+.profile1-section .intro {
+  padding: 30px 20px;
+  margin-left: 50px;
+}
+
+.profile1-section .intro .link {
+  margin-bottom: 60px;
+}
+
+.profile1-section .intro a {
+  width: 139px;
+  height: 43px;
+  padding: 13px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  border: 1px solid #62AF45;
+}
+
+#profile-link {
+  background: #62AF45;
+  color: #FFFFFF;
+}
+
+.profile1-section .intro input {
+  width: 100%;
+  padding: 5px 0px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #D9D9D9;
+}
+
+.profile1-section .intro p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #000000;
+  margin-bottom: 0px;
+}
+
+.profile1-section .intro .upload button {
+  padding: 10px 15px;
+  background: #FFFFFF;
+  color: #62AF45;
+  border: 1px solid #62AF45;
+  border-radius: 5px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+.profile1-section .intro .upload button:last-child {
+  background: #62AF45;
+  color: #F7FFF3;
+  margin-left: 10px;
 }
 
 /* ========================
@@ -1079,6 +1148,16 @@ footer .social-icon a {
 /* ==========================
 responsive
 ============================ */
+@media (min-width:1400px) {
+  .profile1-section {
+    max-width: 1300px;
+    margin: 70px auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+
+}
 
 @media (min-width:1280px) {
   .small-nav {
@@ -1154,6 +1233,28 @@ responsive
     justify-content: center;
     align-items: center;
     background: #1B2D4F;
+  }
+
+  .profile1-section {
+    max-width: 100%;
+    margin: 70px auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+
+  .profile-content .user h2 {
+    width: 150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #FFFFFF;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .blog-info .img img {

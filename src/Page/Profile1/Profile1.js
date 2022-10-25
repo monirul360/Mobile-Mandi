@@ -15,23 +15,52 @@ const Profile1 = () => {
             <Search></Search>
 
             <section className='profile1-section'>
-                <div className="container">
-                    <div className="profile-content">
-                        <img src={cover} alt="" />
-                        <div className="change-cover">
-                            <button>Change Cover Photo</button>
+                <div className="profile-content">
+                    <img src={cover} alt="" />
+                    <div className="change-cover">
+                        <button>Change Cover Photo</button>
+                    </div>
+                    <div className="user d-flex justify-content-center align-items-center">
+                        <div>
+                            <img src={user} alt="" />
                         </div>
-                        <div className="user d-flex justify-content-center align-items-center">
-                            <div>
-                                <img src={user} alt="" />
-                            </div>
-                            <div>
-                                <h2>Johan Smith</h2>
-                                <p>Vendor/buyer</p>
+                        <div>
+                            <h2>Johan Smith</h2>
+                            <p>Vendor/buyer</p>
+                        </div>
+                    </div>
+                    <div className="edit">
+                        <button>Edit Profile</button>
+                    </div>
+                </div>
+                <div className="intro">
+                    <div className="link">
+                        <Link id='profile-link' to='/Profile1'>Profile Info</Link>
+                        <Link to='/Profile2'>Total Ads</Link>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-6">
+                            <div className='me-4'>
+                                <label htmlFor="name"><p>Full Name</p></label>
+                                <input type="text" name="" value="Johan Smith" id="name" />
+                                <label htmlFor="Location"><p>Location</p></label>
+                                <input type="text" name="" value="Delhi" id="Location" />
+                                <label htmlFor="Account"><p>Full Name</p></label>
+                                <input type="text" name="" value="Account Type" id="Account" />
                             </div>
                         </div>
-                        <div className="edit">
-                            <button>Edit Profile</button>
+                        <div className="col-md-6">
+                            <div>
+                                <label htmlFor="email"><p>E-mail Address</p></label>
+                                <input type="text" name="" value="johan35@gmail.com" id="email" />
+                                <label htmlFor="number"><p>Mobile Number</p></label>
+                                <input type="text" name="" value="+91 254 2545 2452" id="number" />
+                                <div className='upload'>
+                                    <p className='mb-3'>Profile Photo</p>
+                                    <button>Profile.JPG</button>
+                                    <button>Upload New</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
