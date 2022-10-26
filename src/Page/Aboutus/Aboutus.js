@@ -6,7 +6,7 @@ const Aboutus = () => {
             <section>
                 <div className="about-page">
                     <div className="container">
-                        <div className="row d-flex justify-content-center align-items-center my-5">
+                        <div className="about-us row d-flex justify-content-center align-items-center my-5">
                             <div className="col-md-5">
                                 <img className='img-fluid' src={img} alt="" />
                             </div>
@@ -23,7 +23,7 @@ const Aboutus = () => {
                     {/* Our Mission */}
                     <div className="our-mission">
                         <div className="container">
-                            <div className="row">
+                            <div className="row d-flex justify-content-center align-items-center">
                                 <div className="col-md-7">
                                     <h2>Our Mission</h2>
                                     <p>To Empower people from Agricultural backgrounds to improve their financial status. </p>
@@ -43,7 +43,7 @@ const Aboutus = () => {
                     </div>
                     {/*  */}
                     <div className="container">
-                        <div className="row">
+                        <div className="row about-Unique d-flex justify-content-center align-items-center">
                             <div className="col-md-5">
                                 <img className='img-fluid' src={img} alt="" />
                             </div>
@@ -60,10 +60,85 @@ const Aboutus = () => {
                     {/* Challenges  */}
                     <div className="Challenges">
                         <div className="container">
-                            <img className='img-fluid' src={img} alt="" />
-                            <h2>Challenges faced by Farmers In India</h2>
-                            <p>If a higher crop yield is required, the farmers must sow better and good quality seeds for better agricultural production.  Better Quality Seeds are high in price and only normal quality seeds are available to a few of the farmers. The depletion of the soil also results in lesser production compared to the earlier years. These and many more challenges make the farmers in India completely dwell in the agricultural problems and not able to involve themselves in the sales and marketing of their agricultural products. </p>
-                            <h3>How does Mobile Mandi help the Farmers/Sellers?</h3>
+                            <div className="about-farmers">
+                                <img src={img} alt="" />
+                                <div className='m-4'>
+                                    <h2>Challenges faced by Farmers In India</h2>
+                                    <p>If a higher crop yield is required, the farmers must sow better and good quality seeds for better agricultural production.  Better Quality Seeds are high in price and only normal quality seeds are available to a few of the farmers. The depletion of the soil also results in lesser production compared to the earlier years. These and many more challenges make the farmers in India completely dwell in the agricultural problems and not able to involve themselves in the sales and marketing of their agricultural products. </p>
+                                    <h3>How does Mobile Mandi help the Farmers/Sellers?</h3>
+                                    {/* about-sellers start */}
+                                    <div className='about-Sellers'>
+                                        <div>
+                                            <div className="box"></div>
+                                        </div>
+                                        <div>
+                                            <p>In the Mobile Mandi Platform, you can start to sell Agricultural products by listing the Products in the Mobile Mandi Platform</p>
+                                        </div>
+                                    </div>
+                                    {/* about-sellers end */}
+                                    {/* about-sellers start */}
+                                    <div className='about-Sellers'>
+                                        <div>
+                                            <div className="box"></div>
+                                        </div>
+                                        <div>
+                                            <p>The Mobile Mandi Platform provides the benefits to the Farmers/Agents to set up their own prices. </p>
+                                        </div>
+                                    </div>
+                                    {/* about-sellers end */}
+                                    {/* about-sellers start */}
+                                    <div className='about-Sellers'>
+                                        <div>
+                                            <div className="box"></div>
+                                        </div>
+                                        <div>
+                                            <p>Farmers/Agents can provide a detailed description of the agricultural products. </p>
+                                        </div>
+                                    </div>
+                                    {/* about-sellers end */}
+                                    {/* about-sellers start */}
+                                    <div className='about-Sellers'>
+                                        <div>
+                                            <div className="box"></div>
+                                        </div>
+                                        <div>
+                                            <p>Mobile Mandi provides a Free Platform for Farmers and Agents to Sell their Agricultural products. </p>
+                                        </div>
+                                    </div>
+                                    {/* about-sellers end */}
+                                    {/* about-sellers start */}
+                                    <div className='about-Sellers'>
+                                        <div>
+                                            <div className="box"></div>
+                                        </div>
+                                        <div>
+                                            <p>The quantity of the Product and Price can be specified in the Mobile Mandi App.</p>
+                                        </div>
+                                    </div>
+                                    {/* about-sellers end */}
+                                    {/* about-sellers start */}
+                                    <div className='about-Sellers'>
+                                        <div>
+                                            <div className="box"></div>
+                                        </div>
+                                        <div>
+                                            <p>The Contact Details for the Purchase can be provided so the seller can contact the Farmer/Agent to buy the Product. </p>
+                                        </div>
+                                    </div>
+                                    {/* about-sellers end */}
+                                    {/* about-sellers start */}
+                                    <div className='about-Sellers'>
+                                        <div>
+                                            <div className="box"></div>
+                                        </div>
+                                        <div>
+                                            <p>The Location Pin can be set up so the Buyer can search for the preferred agricultural products within his
+                                                preferred ocation limits. </p>
+                                        </div>
+                                    </div>
+                                    {/* about-sellers end */}
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
