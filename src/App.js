@@ -7,6 +7,7 @@ import Aboutus from './Page/Aboutus/Aboutus';
 import Allproduct from './Page/Allproduct/Allproduct';
 import Blogdetails from './Page/Blogdetails/Blogdetails';
 import Blogs from './Page/Blogs/Blogs';
+import Chat from './Page/Chat/Chat';
 import Contactus from './Page/Contactus/Contactus';
 import Faq from './Page/Faq/Faq';
 import Home from './Page/Home/Home';
@@ -44,6 +45,7 @@ function App() {
           <Route path='/Terms' element={<Terms></Terms>}></Route>
           <Route path='/Allproduct' element={<Allproduct></Allproduct>}></Route>
           <Route path='/Productdetails' element={<Productdetails></Productdetails>}></Route>
+          <Route path='/chat' element={<Chat></Chat>}></Route>
           <Route path='/Profile1' element={<Profile1></Profile1>}></Route>
           <Route path='/Profile2' element={<Profile2></Profile2>}></Route>
           <Route path='/Contactus' element={<Contactus></Contactus>}></Route>

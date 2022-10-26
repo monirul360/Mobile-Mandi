@@ -745,6 +745,165 @@ search-section
   border: none;
 }
 
+/* ========================
+chat-section
+============================ */
+.chat {
+  width: 90%;
+  margin: auto;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.chat .row>* {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.chat .title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  color: #000000;
+  padding: 24px 40px;
+  border-bottom: 1px solid rgba(217, 217, 217, 0.7);
+}
+
+/* chat-user */
+.chat-user,
+.sms-head {
+  padding: 20px 30px;
+  border-bottom: 1px solid rgba(217, 217, 217, 0.7);
+  ;
+}
+
+.chat-user {
+  padding-right: 0;
+}
+
+.chat-user img,
+.sms-head img {
+  width: 53px;
+  height: 53px;
+  margin-right: 14px;
+  border-radius: 50%;
+}
+
+.chat-user h2,
+.sms-head h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 6px;
+
+}
+
+.chat-user p,
+.sms-head p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #454457;
+
+}
+
+.sms {
+  border-left: 1px solid rgba(217, 217, 217, 0.7);
+}
+
+.sms-body {
+  padding: 30px;
+  overflow: hidden;
+}
+
+.sms-you {
+  margin: 15px 0px;
+  float: left;
+}
+
+.sms-you img,
+.sms-me img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.sms-you p,
+.sms-me p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #454457;
+
+}
+
+.sms-me {
+  float: right;
+  margin: 15px 0px;
+}
+
+.sms-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.sms-footer .icon {
+  width: 120px;
+}
+
+.sms-footer .icon img {
+  margin-right: 15px;
+}
+
+.sms-footer .form {
+  width: calc(100% - 150px);
+  position: relative;
+}
+
+.sms-footer .form textarea {
+  width: 100%;
+  height: 59px;
+  padding: 15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(69, 68, 87, 0.5);
+  border: 1px solid rgba(221, 221, 221, 0.5);
+  border-radius: 10px;
+  resize: none;
+}
+
+.sms-footer .form button {
+  background-color: white;
+  border: none;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.sms-footer .form button img {
+  width: 16.36px;
+  height: 16.13;
+}
+
 /* =========================
 profile1-section
 ============================ */
@@ -1201,6 +1360,10 @@ responsive
     border-radius: 8px;
   }
 
+  .chat {
+    width: 1170px;
+  }
+
   /* ============
   footer
   ================== */
@@ -1233,6 +1396,10 @@ responsive
     justify-content: center;
     align-items: center;
     background: #1B2D4F;
+  }
+
+  .sms {
+    display: none;
   }
 
   .profile1-section {
