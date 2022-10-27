@@ -843,6 +843,171 @@ allproduct-section
 }
 
 /* =========================
+Productdetails 
+=========================== */
+.Productdetails {
+  border-bottom: 1px solid rgba(217, 217, 217, 0.5);
+  margin-bottom: 40px;
+  ;
+}
+
+.Productdetails .page-tittle {
+  text-align: center;
+  font-family: 'Inter';
+  padding-bottom: 64px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  color: #000000;
+
+}
+
+.Productdetails-ads-one,
+.Productdetails-ads-two {
+  padding: 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.Productdetails-ads-one h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 5px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.Productdetails-ads-one p {
+  margin-bottom: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  /* identical to box height, or 28px */
+  color: #454457;
+
+}
+
+.Productdetails-ads-two h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.Productdetails-ads-two .chat-link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+  padding: 10px;
+  background: #62AF45;
+  border-radius: 8px;
+}
+
+.Productdetails-ads-two .user {
+  width: 29.08px;
+  height: 29px;
+  margin-right: 13px;
+}
+
+.Productdetails-ads-two .user-name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  color: #000000;
+  margin-bottom: 7px;
+}
+
+.Productdetails-ads-two .user-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #62AF45;
+
+}
+
+.Productdetails-ads-two .ads-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #454457;
+}
+
+.Productdetails-ads-two a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  /* identical to box height, or 28px */
+  color: #62AF45;
+
+}
+
+.Productdetails-info .main {
+  width: 100%;
+}
+
+.Productdetails-info .img-gallery {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 15px;
+  margin: 15px 10px;
+}
+
+.Productdetails-info .img-gallery img {
+  width: 100px;
+  cursor: pointer;
+}
+
+.Productdetails-info .rice-seed h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 13px;
+  color: #000000;
+}
+
+.Productdetails-info .rice-seed p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.Productdetails-info .rice-seed .date {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #8B8A96;
+}
+
+/* =========================
 search-section
 ============================ */
 .search-section {
