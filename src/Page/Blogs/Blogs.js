@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import img from './../../Photo/Blogs/1.png';
+import img from './../../Photo/Article/blog.png';
 const Blogs = () => {
     const post = [1, 2, 3, 4, 5];
     return (

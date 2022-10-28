@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Ads from '../../Component/Ads/Ads';
-import article from './../../Photo/Article/Rectangle 20.png';
-import location from './../../Photo/Article/Vector.png';
-import user from './../../Photo/Article/Ellipse 12.png';
+import article from './../../Photo/Article/post.png';
+import location from './../../Photo/icon/location.png';
+import user from './../../Photo/icon/user.png';
 const Productdetails = () => {
     const post = [1, 2, 3];
     return (

@@ -2,10 +2,10 @@ import React from 'react';
 import Search from '../../Component/Search/Search';
 import cover from './../../Photo/Profile/profile3.jpg';
 import user from './../../Photo/Profile/user.png';
-import article from './../../Photo/Article/Rectangle 20.png';
-import location from './../../Photo/Article/Vector.png';
-import leftarrow from './../../Photo/Varctor/left-arrow.png';
-import rightarrow from './../../Photo/Varctor/right-arrow.png';
+import article from './../../Photo/Article/post.png';
+import location from './../../Photo/icon/location.png';
+import leftarrow from './../../Photo/icon/left-arrow.png';
+import rightarrow from './../../Photo/icon/right-arrow.png';
 import { Link } from 'react-router-dom';
 import Ads from '../../Component/Ads/Ads';
 const Profile1 = () => {

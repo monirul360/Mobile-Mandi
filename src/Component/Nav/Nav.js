@@ -17,9 +17,9 @@ const Nav = () => {
                                 <li><Link to='/'>Home</Link></li>
                                 <li><Link to='/Aboutus'>About Us</Link></li>
                                 <li><Link to='/'>Why us</Link></li>
-                                <li><Link to='/'>All Products</Link></li>
+                                <li><Link to='/Allproduct'>All Products</Link></li>
                                 <li><Link to='/'>All Categories</Link></li>
-                                <li><Link to='/'>Blogs</Link></li>
+                                <li><Link to='/Blogs'>Blogs</Link></li>
                                 <li><Link to='/login'>Login/Sign Up</Link></li>
                                 <li><Link className='nav-post-ads' to='/postads'>Post Ads</Link></li>
                             </ul>

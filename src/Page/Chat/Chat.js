@@ -1,9 +1,9 @@
 import React from 'react';
 import user from './../../Photo/Profile/user.png';
-import send from './../../Photo/Chat/send.png';
-import one from './../../Photo/Chat/1.png';
-import two from './../../Photo/Chat/2.png';
-import three from './../../Photo/Chat/Vector.png';
+import send from './../../Photo/icon/send.png';
+import plus from './../../Photo/icon/sms/plus.png';
+import icon_file from './../../Photo/icon/sms/icons_file.png';
+import image from './../../Photo/icon/sms/image.png';
 import Ads from '../../Component/Ads/Ads';
 const Chat = () => {
     const person = [1, 2, 3, 4, 5];
@@ -133,9 +133,9 @@ const Chat = () => {
                                 <div className="sms-footer">
                                     <div className="icon">
                                         <div>
-                                            <img src={one} alt="" />
-                                            <img src={two} alt="" />
-                                            <img src={three} alt="" />
+                                            <img src={plus} alt="" />
+                                            <img src={icon_file} alt="" />
+                                            <img src={image} alt="" />
                                         </div>
                                     </div>
                                     <div className="form">

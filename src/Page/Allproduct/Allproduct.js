@@ -1,12 +1,12 @@
 import React from 'react';
 import Sitebar from '../../Component/Allproduct/Sitebar';
-import article from './../../Photo/Article/Rectangle 20.png';
-import user from './../../Photo/Article/Ellipse 12.png';
-import location from './../../Photo/Article/Vector.png';
-import whiteLocation from './../../Photo/Article/white.png';
-import search from './../../Photo/Article/search.png';
-import leftarrow from './../../Photo/Varctor/left-arrow.png';
-import rightarrow from './../../Photo/Varctor/right-arrow.png';
+import article from './../../Photo/Article/post.png';
+import user from './../../Photo/icon/user.png';
+import location from './../../Photo/icon/location.png';
+import whiteLocation from './../../Photo/icon/white-location.png';
+import search from './../../Photo/icon/search.png';
+import leftarrow from './../../Photo/icon/left-arrow.png';
+import rightarrow from './../../Photo/icon/right-arrow.png';
 import { Link } from 'react-router-dom';
 import Ads from '../../Component/Ads/Ads';
 const Allproduct = () => {

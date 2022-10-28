@@ -1,10 +1,13 @@
 import React from 'react';
-import hero from './../../Photo/Hero/Rectangle 2.png';
-import article from './../../Photo/Article/Rectangle 20.png';
-import location from './../../Photo/Article/Vector.png';
-import user from './../../Photo/Article/Ellipse 12.png';
+import hero from './../../Photo/Article/hero.png';
+import article from './../../Photo/Article/post.png';
+import location from './../../Photo/icon/location.png';
+import user from './../../Photo/icon/user.png';
 import Categories from './../../Component/Categories/Categories';
 import Ads from '../../Component/Ads/Ads';
+import whiteLocation from './../../Photo/icon/white-location.png';
+import search from './../../Photo/icon/search.png';
+import { Link } from 'react-router-dom';
 const Home = () => {
     const post = [1, 2, 3, 4, 5, 6];
     return (
@@ -13,14 +16,25 @@ const Home = () => {
                 <div className="hero">
                     <div className="hero-content">
                         <div className='p-3'>
-                            <h2>Now you can sell your farm</h2>
-                            <h2>products at your best price.</h2>
-                            <p>Mobile Mandi is a one-stop platform for farmers to sell their produce </p>
-                            <p>at their price.</p>
+                            <h2>Now you can sell your farm products at your best price.</h2>
+                            <p>Mobile Mandi is a one-stop platform for farmers to sell their produce at their price.</p>
+                            <div className="hero-form">
+                                <input type="text" name="" placeholder='What are you looking for?' id="" />
+                                <button type='submit'>
+                                    <img src={search} alt="" />
+                                </button>
+                            </div>
+                            <Link to='/'>
+                                <span className='me-2'>
+                                    <img src={whiteLocation} alt="" />
+                                </span>
+                                Select Your Place
+                            </Link>
                         </div>
                     </div>
+
                     <div className="hero-img">
-                        <img src={hero} alt="" />
+                        <img className='img-fluid' src={hero} alt="" />
                     </div>
                 </div>
             </section>

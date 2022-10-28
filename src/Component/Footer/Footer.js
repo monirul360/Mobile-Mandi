@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import google from './../../Photo/Varctor/google-play.png';
-import appstore from './../../Photo/Varctor/app-store.png';
-import fb from './../../Photo/Varctor/fb.png';
-import twi from './../../Photo/Varctor/twitter.png';
-import linkedin from "./../../Photo/Varctor/in.png";
-import ins from './../../Photo/Varctor/ins.png'
+import google from './../../Photo/icon/google.png';
+import appstore from './../../Photo/icon/store.png';
+import fb from './../../Photo/icon/facebook.png';
+import twi from './../../Photo/icon/twitter.png';
+import linkedin from "./../../Photo/icon/linkedin.png";
+import ins from './../../Photo/icon/instagram.png'
 const Footer = () => {
     return (
         <div>
@@ -15,9 +15,9 @@ const Footer = () => {
                         <div className="col-md-6 col-lg-3">
                             <h4>About Mobile Mandi</h4>
                             <ul>
-                                <li><Link to='/'>About Us</Link></li>
+                                <li><Link to='/Aboutus'>About Us</Link></li>
                                 <li><Link to='/'>Careers</Link></li>
-                                <li><Link to='/'>Terms and Conditions</Link></li>
+                                <li><Link to='/Terms'>Terms and Conditions</Link></li>
                                 <li><Link to='/'>Privacy policy</Link></li>
                                 <li><Link to='/'>Sitemap</Link></li>
                             </ul>
@@ -26,9 +26,9 @@ const Footer = () => {
                             <h4>Help & Support</h4>
                             <ul>
 
-                                <li><Link to='/'>FAQ</Link></li>
+                                <li><Link to='/Faq'>FAQ</Link></li>
                                 <li><Link to='/'>Stay safe</Link></li>
-                                <li><Link to='/'>Contact Us</Link></li>
+                                <li><Link to='/Contactus'>Contact Us</Link></li>
                             </ul>
                         </div>
                         <div className="col-md-6 col-lg-3">
