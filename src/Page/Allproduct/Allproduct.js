@@ -36,7 +36,7 @@ const Allproduct = () => {
                 </div>
             </section>
 
-            <section className="allproduct-section">
+            <section className="allproduct-section common-padding">
                 <div className="container">
                     <h2 className='page-tittle'>We Found 258 Rice ads</h2>
                     <div className="row">
@@ -92,7 +92,7 @@ const Allproduct = () => {
                             </div>
                             <div className="row">
                                 <div className="col-md-12">
-                                    <div className='allproduct-pagination'>
+                                    <div className='allproduct-pagination pt-5'>
                                         <Link to='/'>
                                             <img src={leftarrow} alt="" />
                                         </Link>
@@ -114,8 +114,8 @@ const Allproduct = () => {
                         </div>
                     </div>
                 </div>
-                <Ads></Ads>
             </section>
+            <Ads></Ads>
         </>
     );
 };

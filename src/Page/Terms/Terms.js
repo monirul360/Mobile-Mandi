@@ -3,7 +3,7 @@ import React from 'react';
 const Terms = () => {
     return (
         <>
-            <section className='terms-section'>
+            <section className='terms-section common-padding'>
                 <div className="terms-content">
                     <div className="container">
                         <h2 className='terms-title'>Terms and Conditions</h2>

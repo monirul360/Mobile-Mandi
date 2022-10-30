@@ -9,7 +9,7 @@ const Chat = () => {
     const person = [1, 2, 3, 4, 5];
     return (
         <>
-            <section className='chat-section section-padding'>
+            <section className='chat-section common-border common-padding'>
                 <div className="chat">
                     <div className="row">
                         <div className="col-md-5">

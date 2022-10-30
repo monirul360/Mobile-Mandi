@@ -25,14 +25,30 @@ const Nav = () => {
                             </ul>
                         </div>
                         <div className="small-nav">
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                            <div class="dropdown">
+                                <button className="" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+
+                                    <li><Link className='dropdown-item' to='/'>Home</Link></li>
+                                    <li><Link className='dropdown-item' to='/Aboutus'>About Us</Link></li>
+                                    <li><Link className='dropdown-item' to='/'>Why us</Link></li>
+                                    <li><Link className='dropdown-item' to='/Allproduct'>All Products</Link></li>
+                                    <li><Link className='dropdown-item' to='/'>All Categories</Link></li>
+                                    <li><Link className='dropdown-item' to='/Blogs'>Blogs</Link></li>
+                                    <li><Link className='dropdown-item' to='/login'>Login/Sign Up</Link></li>
+                                    <li><Link className='nav-post-ads  dropdown-item' to='/postads'>Post Ads</Link></li>
+                                </ul>
+                            </div>
+
                         </div>
                     </div>
                 </nav>
-            </div>
-        </div>
+            </div >
+        </div >
     );
 };
 

@@ -4,9 +4,9 @@ const Aboutus = () => {
     return (
         <>
             <section>
-                <div className="about-page">
+                <div className="about-page common-padding-bottom">
                     <div className="container">
-                        <div className="about-us row d-flex justify-content-center align-items-center my-5">
+                        <div className="about-us row d-flex justify-content-center align-items-center common-padding">
                             <div className="col-md-12 col-lg-6">
                                 <img className='img-fluid' src={img} alt="" />
                             </div>
@@ -43,7 +43,7 @@ const Aboutus = () => {
                     </div>
                     {/*  */}
                     <div className="container">
-                        <div className="row about-Unique d-flex justify-content-center align-items-center">
+                        <div className="row about-Unique d-flex justify-content-center align-items-center common-padding">
                             <div className="col-md-12 col-lg-5">
                                 <img src={img} alt="" />
                             </div>
@@ -62,7 +62,7 @@ const Aboutus = () => {
                         <div className="container">
                             <div className="about-farmers">
                                 <img src={img} alt="" />
-                                <div className='m-4'>
+                                <div className='mt-4'>
                                     <h2>Challenges faced by Farmers In India</h2>
                                     <p>If a higher crop yield is required, the farmers must sow better and good quality seeds for better agricultural production.  Better Quality Seeds are high in price and only normal quality seeds are available to a few of the farmers. The depletion of the soil also results in lesser production compared to the earlier years. These and many more challenges make the farmers in India completely dwell in the agricultural problems and not able to involve themselves in the sales and marketing of their agricultural products. </p>
                                     <h3>How does Mobile Mandi help the Farmers/Sellers?</h3>
@@ -127,12 +127,12 @@ const Aboutus = () => {
                                     </div>
                                     {/* about-sellers end */}
                                     {/* about-sellers start */}
-                                    <div className='about-Sellers'>
+                                    <div className='about-Sellers mb-0'>
                                         <div>
                                             <div className="box"></div>
                                         </div>
                                         <div>
-                                            <p>The Location Pin can be set up so the Buyer can search for the preferred agricultural products within his
+                                            <p className='mb-0'>The Location Pin can be set up so the Buyer can search for the preferred agricultural products within his
                                                 preferred ocation limits. </p>
                                         </div>
                                     </div>

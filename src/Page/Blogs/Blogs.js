@@ -5,9 +5,9 @@ const Blogs = () => {
     const post = [1, 2, 3, 4, 5];
     return (
         <>
-            <section className='blogs-section'>
+            <section className='blogs-section common-padding'>
                 <div className="container">
-                    <h3 className='pb-5 pt-4 text-center'>Home - Blogs</h3>
+                    <h3 className='pb-5  text-center'>Home - Blogs</h3>
 
                     <div className="row d-flex justify-content-center">
                         {

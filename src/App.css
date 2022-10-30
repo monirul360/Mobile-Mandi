@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #62AF45;
+}
+
 ul {
   padding-left: 0px;
 }
@@ -50,12 +54,40 @@ nav bar
   list-style: none;
 }
 
-.small-nav>div {
-  width: 45px;
-  height: 5px;
-  margin: 5px;
+.small-nav .dropdown-menu {
+  width: 350px;
+  padding: 20px;
+}
+
+.small-nav .dropdown-menu li {
+  line-height: 1.9;
+}
+
+.small-nav .dropdown button {
+  border: none;
   background-color: #62AF45;
+  padding: 5px 7px;
+  border-radius: 4px;
+}
+
+.small-nav .dropdown button>div {
+  width: 38px;
+  height: 4px;
+  margin: 5px;
+  background-color: #FFFFFF;
   cursor: pointer;
+}
+
+.dropdown .nav-post-ads {
+  padding: 12px 16px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  background: #62AF45;
+  border-radius: 8px;
 }
 
 /* ========================
@@ -64,7 +96,6 @@ hero
 .hero {
   width: 100%;
   display: flex;
-  background-color: orange;
 }
 
 .hero>div {
@@ -74,6 +105,7 @@ hero
 .hero .hero-content {
   display: flex;
   justify-content: center;
+  padding: 30px;
   align-items: center;
   text-align: center;
   background: #1B2D4F;
@@ -83,11 +115,10 @@ hero
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 58px;
   margin-bottom: 25px;
   color: #FFFFFF;
-
 }
 
 .hero-content p {
@@ -195,7 +226,6 @@ recent-product
 ===========================*/
 
 .recent-product {
-  padding-top: 40px;
   border-top: 2px solid rgba(221, 221, 221, 0.5);
 }
 
@@ -204,8 +234,6 @@ popular-product
 ============================ */
 .popular-product {
   background-color: #F5FFF1;
-  padding: 45px 0;
-  margin-top: 50px;
 }
 
 .popular-article .items {
@@ -335,7 +363,7 @@ form-section
 ============================ */
 .form-section {
   border-top: 1px solid rgba(217, 217, 217, 0.7);
-  padding: 80px 0px;
+  padding: 100px 0px;
 }
 
 .form-group {
@@ -500,6 +528,11 @@ postads
 /* ========================
 about-page
 =========================== */
+.about-page {
+  border-top: 1px solid rgba(217, 217, 217, 0.7);
+
+}
+
 .about-us img {
   width: 100%;
   height: 470px;
@@ -525,9 +558,6 @@ about-page
   color: rgba(0, 0, 0, 0.5);
 }
 
-.our-mission {
-  padding: 60px 0;
-}
 
 .our-mission img {
   width: 470px;
@@ -558,7 +588,6 @@ about-page
 .about-Unique img {
   width: 100%;
   height: 530px;
-  background-color: orange;
 }
 
 .about-Unique h2 {
@@ -579,10 +608,6 @@ about-page
   font-size: 16px;
   /* or 28px */
   color: rgba(0, 0, 0, 0.5);
-}
-
-.about-farmers {
-  padding: 60px 0;
 }
 
 .about-farmers img {
@@ -644,11 +669,7 @@ about-page
 faq-section
 ============================ */
 
-.faq-section {
-  padding: 73px 0;
-  border-top: 2px solid rgba(217, 217, 217, 0.7);
 
-}
 
 .faq-section h2 {
   font-family: 'Inter';
@@ -679,7 +700,6 @@ faq-section
 terms-section
 ============================ */
 .terms-section {
-  padding: 73px 0;
   border-top: 2px solid rgba(217, 217, 217, 0.7);
 }
 
@@ -805,10 +825,6 @@ allproduct-hero-section
 /* =========================
 allproduct-section
 ============================ */
-.allproduct-section {
-  padding: 73px 0;
-  padding-bottom: 0;
-}
 
 .allproduct-section .page-tittle {
   font-family: 'Inter';
@@ -844,8 +860,8 @@ allproduct-section
 }
 
 .allproduct-site-bar input {
-  border: 6px solid #62AF45;
-  background-color: orange;
+  border: 2px solid #62AF45;
+
 }
 
 .allproduct-site-bar span {
@@ -860,7 +876,7 @@ allproduct-section
   text-align: center;
   display: flex;
   justify-content: center;
-  margin: 70px auto;
+  margin: auto;
 }
 
 .allproduct-pagination a {
@@ -1263,7 +1279,7 @@ profile1-section
 ============================ */
 .profile1-section {
   max-width: 90%;
-  margin: 70px auto;
+  margin: auto;
   background: #FFFFFF;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -1537,7 +1553,6 @@ contact-section
 blogs-section
 ========================== */
 .blogs-section {
-  padding: 50px 0;
   border-top: 1px solid rgba(217, 217, 217, 0.7);
 }
 
@@ -1572,11 +1587,7 @@ blogs-section
 /* =========================
 blog-info
 ============================= */
-.section-padding {
-  padding: 50px 0px;
-  border-top: 1px solid rgba(217, 217, 217, 0.7);
-  ;
-}
+
 
 .blog-info .img img {
   width: 100%;
@@ -1609,7 +1620,8 @@ footer
 ============================ */
 
 footer {
-  padding: 93px 0px;
+  padding: 100px 0px;
+  padding-bottom: 80px;
   background-color: #F5FFF1;
   border-bottom: 2px solid rgba(98, 175, 69, 0.25);
 }
@@ -1673,10 +1685,47 @@ footer .social-icon a {
   color: #62AF45;
 }
 
+
+/* =========================
+Common style
+============================*/
+.common-border {
+  border-top: 1px solid rgba(217, 217, 217, 0.7);
+}
+
+.common-padding {
+  padding: 100px 0px;
+}
+
+.common-padding-top {
+  padding-top: 100px;
+}
+
+.common-padding-bottom {
+  padding-bottom: 100px;
+}
+
+.common-margin {
+  margin: 100px 0px;
+}
+
+.common-margin-top {
+  margin-top: 100px;
+}
+
+.common-margin-bottom {
+  margin-bottom: 100px;
+}
+
 /* ==========================
 responsive
 ============================ */
+
 @media (min-width:1400px) {
+  .hero .hero-content {
+    padding: 50px 100px;
+  }
+
   .profile1-section {
     max-width: 1300px;
     margin: 70px auto;
@@ -1690,6 +1739,14 @@ responsive
 @media (min-width:1280px) {
   .small-nav {
     display: none;
+  }
+
+  .hero .hero-content {
+    padding: 50px 70px;
+  }
+
+  .hero .hero-content h2 {
+    font-size: 32px;
   }
 
   .nav-logo img {
@@ -1729,6 +1786,7 @@ responsive
     border-radius: 8px;
   }
 
+
   .chat {
     width: 1170px;
   }
@@ -1751,7 +1809,49 @@ responsive
   }
 }
 
+@media (min-width:1600px) {
+  .hero .hero-content {
+    padding: 50px 100px;
+  }
+
+  .hero .hero-content h2 {
+    font-size: 50px;
+    line-height: 1.8;
+  }
+}
+
+
+@media (max-width:1100px) {
+  .hero-content h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 58px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+  }
+}
+
 @media (max-width:992px) {
+  .hero .hero-img {
+    display: none;
+  }
+
+  .hero>div {
+    width: 100%;
+  }
+
+  .hero-content h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+  }
+
   .allproduct-site-bar {
     margin: 30px 0;
   }
@@ -1760,19 +1860,92 @@ responsive
     width: 100%;
     height: 350px;
   }
+
+  .form-section {
+    border-top: 1px solid rgba(217, 217, 217, 0.7);
+    padding: 70px 0px;
+  }
+
 }
 
 @media (max-width:892px) {
-  .hero>div {
-    width: 100%;
+
+  /* =========================
+Common style
+============================*/
+  .common-border {
+    border-top: 1px solid rgba(217, 217, 217, 0.7);
   }
 
-  .hero .hero-img {
-    display: none;
+  .common-padding {
+    padding: 70px 0px;
   }
+
+  .common-padding-top {
+    padding-top: 70px;
+  }
+
+  .common-padding-bottom {
+    padding-bottom: 70px;
+  }
+
+  .common-margin {
+    margin: 70px 0px;
+  }
+
+  .common-margin-top {
+    margin-top: 70px;
+  }
+
+  .common-margin-bottom {
+    margin-bottom: 70px;
+  }
+
+  .form-section {
+    border-top: 1px solid rgba(217, 217, 217, 0.7);
+    padding: 50px 0px;
+  }
+
+  .hero .hero-content {
+    padding: 30px 30px;
+  }
+
+
 }
 
 @media (max-width:769px) {
+
+  /* =========================
+Common style
+============================*/
+  .common-border {
+    border-top: 1px solid rgba(217, 217, 217, 0.7);
+  }
+
+  .common-padding {
+    padding: 50px 0px;
+  }
+
+  .common-padding-top {
+    padding-top: 50px;
+  }
+
+  .common-padding-bottom {
+    padding-bottom: 50px;
+  }
+
+  .common-margin {
+    margin: 50px 0px;
+  }
+
+  .common-margin-top {
+    margin-top: 50px;
+  }
+
+  .common-margin-bottom {
+    margin-bottom: 50px;
+  }
+
 
   .search-section {
     width: 100%;
@@ -1836,6 +2009,20 @@ responsive
 }
 
 @media (max-width:660px) {
+
+  .post-ads .post-content h1 {
+    font-size: 34px
+  }
+
+  .hero .hero-content {
+    padding: 30px 20px;
+  }
+
+  .hero .hero-content h2 {
+    font-size: 26px;
+    line-height: 1.5;
+  }
+
   .form-group {
     width: 100%;
     display: block;
@@ -1852,6 +2039,7 @@ responsive
 }
 
 @media (max-width:570px) {
+
   .form-group {
     width: 100%;
     display: block;

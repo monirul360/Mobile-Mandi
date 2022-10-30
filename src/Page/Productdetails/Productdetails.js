@@ -8,7 +8,7 @@ const Productdetails = () => {
     const post = [1, 2, 3];
     return (
         <>
-            <section className='Productdetails section-padding'>
+            <section className='Productdetails common-border common-padding'>
                 <h2 className='page-tittle'>Home - Products - Product Details</h2>
                 <div className="container">
                     <div className="row">
@@ -76,11 +76,11 @@ const Productdetails = () => {
                     </div>
                 </div>
             </section>
-            <section className='pb-5'>
-                <div className="recent-product border-0">
+            <section>
+                <div className="recent-product border-0 common-padding pt-5">
                     <div className="container">
                         <div className="popular-article">
-                            <h3 className='pb-5 pt-4 text-center'>Recent Listed Product</h3>
+                            <h3 className='text-center mt-0 mb-5'>Recent Listed Product</h3>
                             <div className="row">
                                 {
                                     post.map(popular =>

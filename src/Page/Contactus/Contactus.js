@@ -5,7 +5,7 @@ import location from './../../Photo/icon/location.png';
 const Contactus = () => {
     return (
         <>
-            <section className='contact-section section-padding '>
+            <section className='contact-section common-border common-padding'>
                 <div className="container">
                     <div className="contact">
                         <div className="intro">

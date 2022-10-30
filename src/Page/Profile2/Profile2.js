@@ -12,7 +12,7 @@ const Profile2 = () => {
         <>
             <Search></Search>
 
-            <section className='profile1-section'>
+            <section className='profile1-section common-margin mx-auto'>
                 <div className="profile-content">
                     <img src={cover} alt="" />
                     <div className="change-cover">

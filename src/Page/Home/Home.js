@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div>
             <section>
-                <div className="hero">
+                <div className="hero pt-4">
                     <div className="hero-content">
                         <div className='p-3'>
                             <h2>Now you can sell your farm products at your best price.</h2>
@@ -40,10 +40,10 @@ const Home = () => {
             </section>
             <Categories></Categories>
             <section>
-                <div className="recent-product">
+                <div className="recent-product common-padding">
                     <div className="container">
                         <div className="popular-article">
-                            <h3 className='pb-5 pt-4 text-center'>Recent Listed Product</h3>
+                            <h3 className='pb-5  text-center'>Recent Listed Product</h3>
                             <div className="row">
                                 {
                                     post.map(popular =>
@@ -88,10 +88,10 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className='popular-product'>
+            <section className='popular-product common-padding'>
                 <div className="container">
                     <div className="popular-article">
-                        <h3 className='pb-5 pt-4 text-center'>Popular Products of The Week</h3>
+                        <h3 className='pb-5  text-center'>Popular Products of The Week</h3>
                         <div className="row">
                             {
                                 post.map(popular =>

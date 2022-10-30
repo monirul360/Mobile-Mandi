@@ -14,7 +14,7 @@ const Profile1 = () => {
         <>
             <Search></Search>
 
-            <section className='profile1-section'>
+            <section className='profile1-section common-margin-top'>
                 <div className="profile-content">
                     <img src={cover} alt="" />
                     <div className="change-cover">
@@ -66,12 +66,12 @@ const Profile1 = () => {
                 </div>
             </section>
             <section>
-                <div className='we-found'>
+                <div className='we-found mt-5'>
                     <div className="container">
-                        <div className="recent-product">
+                        <div className="recent-product border-0">
                             <div className="container">
                                 <div className="popular-article">
-                                    <h3 className='pb-5 pt-4 '>We Found 258 Rice ads</h3>
+                                    <h3 className='pb-5 pt-0 '>We Found 258 Rice ads</h3>
                                     <div className="row">
                                         {
                                             post.map(popular =>

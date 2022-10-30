@@ -3,9 +3,9 @@ import img from './../../Photo/Article/blog.png';
 const Blogdetails = () => {
     return (
         <>
-            <section className='section-padding'>
+            <section className='common-border common-padding'>
                 <div className="container">
-                    <h3 className='pb-5 pt-4 text-center'>Home - Blogs - Blog Details</h3>
+                    <h3 className='pb-5 text-center'>Home - Blogs - Blog Details</h3>
                     <div className="blog-info">
                         <div className="img">
                             <img src={img} alt="" />
@@ -51,7 +51,7 @@ const Blogdetails = () => {
                             <p>
                                 Quickly depletingfresh water around the world along with soil depletion with very less rainfall and changing climatic conditions affects the farmers to always expect unpredicted agricultural produce. COVID-19 has made several food processing units shut down their operations. So, The Agricultural farmers are unable tosell their grown crops to the Food Processing Units. Hence, the dependence on the local traders has increased and the farmers are selling their grown agricultural products at a very less price and under margin.
                             </p>
-                            <p>
+                            <p className='mb-0'>
                                 Many of the Farmers in India wipe out and in serious debt. The highly unstable demand for agricultural products across the globe has worsened the situation of the farmers. Mobile Mandi is consistently working on providing the right technological platform for the farmers to sell their agricultural products at the best price which is profitable for the farmers.
                             </p>
                         </div>
